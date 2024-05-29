@@ -1,0 +1,116 @@
+{
+    "resources": [
+       {
+         "id": 1,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 1",
+          "description": "Description for product 1",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 2,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 2",
+          "description": "Description for product 2",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 3,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 3",
+          "description": "Description for product 3",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 4,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 4",
+          "description": "Description for product 4",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 5,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 5",
+          "description": "Description for product 5",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 6,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 6",
+          "description": "Description for product 6",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 7,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 7",
+          "description": "Description for product 1",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 8,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 8",
+          "description": "Description for product 2",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 9,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 9",
+          "description": "Description for product 3",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 10,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 10",
+          "description": "Description for product 4",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 11,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 11",
+          "description": "Description for product 5",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 12,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 12",
+          "description": "Description for product 6",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 13,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 13",
+          "description": "Description for product 6",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 14,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 14",
+          "description": "Description for product 6",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 15,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 15",
+          "description": "Description for product 6",
+          "card": "Detalles del producto 1"
+       },
+       {
+          "id": 16,
+          "imageSrc": "https://placehold.co/400",
+          "title": "Product 16",
+          "description": "Description for product 6",
+          "card": "Detalles del producto 1"
+       }
+    ]
+ }
