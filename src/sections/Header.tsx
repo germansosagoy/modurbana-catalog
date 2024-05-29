@@ -24,19 +24,19 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <a href="#" className="flex items-center">
               <img src={Logo} alt="Logo" className="w-10 h-auto rounded-lg" />
-              <h1 className="text-[#373737] text-2xl font-bold">Mod Urbana</h1>
+              <h1 className="text-[#373737] text-2xl font-bold">Mod Urb.</h1>
             </a>
           </div>
           <div className="md:flex hidden items-center">
             <button
-              className="px-6 py-2 text-black rounded-lg text-lg font-medium hover:bg-slate-200/50 duration-300"
+              className="px-6 py-2 text-gray-700 rounded-lg text-lg font-semibold hover:bg-slate-200/50 duration-300"
               // onClick={toggleAboutModal}
             >
               Sobre Nosotros
             </button>
-         <a href="#envios" onClick={handleScrollTo} className="px-6 py-2 text-white rounded-lg text-lg font-medium bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2">
+         <a href="#envios" onClick={handleScrollTo} className="px-6 py-2 text-white/90 rounded-lg text-lg font-semibold bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2">
           Envíos
         </a>
           </div>
@@ -72,12 +72,12 @@ const Header: React.FC = () => {
         }`}
       >
         <button
-          className="px-6 py-2 text-black rounded-lg text-lg font-medium hover:bg-slate-200/50 duration-300"
+          className="px-6 py-2 text-gray-700 rounded-lg text-lg font-semibold hover:bg-slate-200/50 duration-300"
           // onClick={toggleAboutModal}
         >
           Sobre Nosotros
         </button>
-        <a href="#envios" className="px-6 py-2 text-white rounded-lg text-lg font-medium bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2 mb-2">
+        <a href="#envios" className="px-6 py-2 text-white/90 rounded-lg text-lg font-semibold bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2 mb-2">
         Envíos
         </a>
       </div>

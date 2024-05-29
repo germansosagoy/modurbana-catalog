@@ -1,26 +1,21 @@
 import React from "react";
 import ShipImage from "../assets/images/hero-image.webp";
 
+
 const Shipping: React.FC = () => {
-  // const handleScrollToShip = () => {
-  //   const element = document.getElementById("envios");
-  //   if (shippingSection) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // }
   return (
     <section
     id="envios"
-    className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative px-8 pt-16"
+    className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative px-8 pt-20"
     style={{ backgroundImage: `url(${ShipImage})` }}
   >
     <div className="flex flex-col items-center justify-center">
-      <span className="font-bold text-3xl text-white flex items-center justify-center text-6xl py-6 mb-5">
+      <span className="font-bold text-white flex items-center justify-center text-6xl py-6 mb-5">
         ¿En dónde estás ubicado?
       </span>
-      <div className="w-full max-w-6xl p-8 z-10 bg-white bg-opacity-30 backdrop-blur-md border-b border-white border-opacity-20 shadow-lg rounded-2xl">
+      <div className="w-full max-w-5xl p-8 z-10 bg-white bg-opacity-30 backdrop-blur-md border-b border-white border-opacity-20 shadow-lg rounded-2xl">
         <span className="text-xl text-black font-medium p-2 mb-2 block">
-          Hacemos envíos por Correo Argentino a:
+          Hacemos envíos por Correo Argentino a los siguientes puntos:
         </span>
         <ul className="flex flex-col justify-center gap-4 pb-2 mt-5">
           <li>
