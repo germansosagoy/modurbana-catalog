@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../assets/images/modurbana-logo.png';
-
+import { MapPin } from 'lucide-react';
 
 
 const Header: React.FC = () => {
@@ -26,17 +26,17 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <a href="#" className="flex items-center">
               <img src={Logo} alt="Logo" className="w-10 h-auto rounded-lg" />
-              <h1 className="text-[#373737] text-2xl font-bold">Mod Urb.</h1>
+              <h1 className="text-[#373737] text-2xl font-bold">ModUrbana</h1>
             </a>
           </div>
-          <div className="md:flex hidden items-center">
-            <button
-              className="px-6 py-2 text-gray-700 rounded-lg text-lg font-semibold hover:bg-slate-200/50 duration-300"
-              // onClick={toggleAboutModal}
-            >
-              Sobre Nosotros
-            </button>
-         <a href="#envios" onClick={handleScrollTo} className="px-6 py-2 text-white/90 rounded-lg text-lg font-semibold bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2">
+          <div className="hidden md:flex justify-center items-center hover:animate-pulse">
+          <a className="text-slate-900 text-center font-semibold text-xs uppercase tracking-wider cursor-pointer" href='https://maps.app.goo.gl/5Uw55X2pDde3jtCK9' target="_blank" rel="noopener noreferrer">
+          Nos ubicamos en Gustavo Grenda 70, Zona Centro - Chaco.
+          </a>
+         <MapPin className="w-4 h-4 ml-1 mb-1.5"/>
+        </div>
+          <div className="hidden md:flex hidden items-center">
+         <a href="#envios" onClick={handleScrollTo} className="px-6 py-2 text-white/90 rounded-lg text-lg font-medium bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2">
           Envíos
         </a>
           </div>
@@ -71,13 +71,7 @@ const Header: React.FC = () => {
             : 'opacity-0 max-h-0 -translate-y-10 overflow-hidden'
         }`}
       >
-        <button
-          className="px-6 py-2 text-gray-700 rounded-lg text-lg font-semibold hover:bg-slate-200/50 duration-300"
-          // onClick={toggleAboutModal}
-        >
-          Sobre Nosotros
-        </button>
-        <a href="#envios" className="px-6 py-2 text-white/90 rounded-lg text-lg font-semibold bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2 mb-2">
+        <a href="#envios" className="px-6 py-2 text-white/90 rounded-lg text-lg font-medium bg-[#017374] hover:bg-[#017374]/80 duration-300 ml-2 mb-2">
         Envíos
         </a>
       </div>
