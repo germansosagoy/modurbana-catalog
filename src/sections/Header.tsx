@@ -29,7 +29,7 @@ const Header: React.FC = () => {
               <h1 className="text-[#373737] text-2xl font-bold">ModUrbana</h1>
             </a>
           </div>
-          <div className="hidden md:flex justify-center items-center hover:animate-pulse">
+          <div className="hidden md:flex justify-center items-center animate-pulse">
           <a className="text-slate-900 text-center font-semibold text-xs uppercase tracking-wider cursor-pointer" href='https://maps.app.goo.gl/5Uw55X2pDde3jtCK9' target="_blank" rel="noopener noreferrer">
           Nos ubicamos en Gustavo Grenda 70, Zona Centro - Chaco.
           </a>
