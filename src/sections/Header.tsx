@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Logo from '../assets/images/modurbana-logo.png';
 import { MapPin } from 'lucide-react';
+import Logo from '@assets/images/modurbana-logo.webp';
 
 
 const Header: React.FC = () => {
@@ -20,12 +20,12 @@ const Header: React.FC = () => {
   }
 
   return (
-    <header className="w-full sticky top-0 z-10 bg-white bg-opacity-30 backdrop-blur-md border-b border-white border-opacity-20 shadow-lg">
+    <header className="w-full sticky top-0 z-10 bg-white bg-opacity-30 backdrop-blur-md border-b border-white border-opacity-20 shadow-lg animate-fade">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <img src={Logo} alt="Logo" className="w-10 h-auto rounded-lg" />
+              <img src={Logo} alt="Logo" className="w-10 h-10 rounded-lg" />
               <h1 className="text-[#373737] text-2xl font-bold">ModUrbana</h1>
             </a>
           </div>

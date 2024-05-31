@@ -1,12 +1,12 @@
 import React from "react";
-import ShipImage from "../assets/images/hero-image.webp";
+import ShipImage from "@assets/images/hero-image.webp";
 
 
 const Shipping: React.FC = () => {
   return (
     <section
       id="envios"
-      className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative px-4 sm:px-8 pt-20"
+      className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative px-4 sm:px-8 pt-20 animate-fade"
       style={{ backgroundImage: `url(${ShipImage})` }}
     >
       <div className="flex flex-col items-center justify-center">
